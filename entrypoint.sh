@@ -22,6 +22,6 @@ git lfs install
 git checkout master
 git add -A
 timestamp=$(date -u)
-git commit -m "Automated publish: ${timestamp} ${GITHUB_SHA}" || exit 0
+git commit -m " $INPUT_COMMIT_MESSAGE ${timestamp} ${GITHUB_SHA}" || exit 0
 git pull --rebase publisher master
 git push publisher master
