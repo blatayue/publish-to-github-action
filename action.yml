@@ -1,0 +1,11 @@
+name: Commit to Github
+description: Automatically pushes on all your changes.
+
+author: Andrew Morris <morris.r.andrew@gmail.com>
+original_author: Conrad Großer <grosserconrad@gmail.com>
+
+inputs:
+  commit_message:
+    description: Commit message
+    required: false
+    default: 'Prettified Code!'
