@@ -9,3 +9,10 @@ inputs:
     description: Commit message
     required: false
     default: 'Prettified Code!'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'award'
+  color: 'green'
